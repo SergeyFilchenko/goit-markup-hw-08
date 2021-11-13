@@ -1,0 +1,33 @@
+.footer-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+background: var(--background2-color);
+}
+.footer{
+    display: flex;
+    align-items: baseline;
+   
+&__studio{
+    color: var(--white-color);
+}
+}
+
+.adress-footer{
+    margin-top: 20px;
+    
+&__title{
+    
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
+&__item{
+    margin-top: 9px;
+}
+
+&__link{
+    color: rgba(255, 255, 255, 0.6);
+}
+}

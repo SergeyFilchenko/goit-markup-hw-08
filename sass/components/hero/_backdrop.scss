@@ -1,0 +1,13 @@
+.is-hidden {
+opacity: 0;
+pointer-events: none;
+}
+.backdrop{
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+background: rgba(0, 0, 0, 0.2);
+}

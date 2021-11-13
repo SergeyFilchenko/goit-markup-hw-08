@@ -1,0 +1,19 @@
+.social-footer{
+    margin-left: 70px;
+    margin-right: 93px;
+&_heading{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+&_title{
+    display: flex;
+}
+&__item:not(:last-child){
+    margin-right: 10px;
+}
+}

@@ -1,0 +1,62 @@
+.box-licence{
+display: inline-block;
+
+&__form{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+&__checkbox{
+    visibility: hidden;
+}
+& input{
+    width: 16px;
+    height: 15px;
+}
+&__custom{
+    position: relative;
+margin-right: 9px;
+border: 2px solid;
+display: inline-block;
+width: 15px;
+height: 15px;
+background-image: url(..//images/chek.svg);
+background-size: 13px 12px;
+cursor: pointer;
+border-radius: 4px;
+background-repeat: no-repeat;
+}
+
+& input:checked + &__custom{
+    background-color: var(--background-color);
+}
+&__text{
+    font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+&__agreements{
+    color: var(--background-color);
+    text-decoration: underline;
+}
+&__button{
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.06em;
+color: var(--white-color);
+width: 200px;
+height: 50px;
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+}
