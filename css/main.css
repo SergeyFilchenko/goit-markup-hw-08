@@ -33,7 +33,7 @@
   color: black;
 }
 
-.main-nav .menu-button {
+.menu-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -46,7 +46,21 @@
   right: 10px;
 }
 
-.main-nav .menu-button .icon-cross {
+@media screen and (min-width: 480px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
   display: none;
 }
 

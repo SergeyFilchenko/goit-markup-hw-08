@@ -20,6 +20,7 @@
 &__studia{
     color: black;
 }
+}
 .menu-button{
   display: inline-flex;
   margin: 0;
@@ -29,9 +30,19 @@
   position: absolute;
   top: 0;
   right: 10px;
+  @media screen and (min-width:480px) {
+    display: none;
+  }
   
+& .icon-cross{
+  display: none;
 }
-.menu-button .icon-cross{
+&.is-open .icon-cross{
+  display: block;
+}
+&.is-open .icon-menu{
   display: none;
 }
 }
+
+
