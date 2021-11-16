@@ -2,6 +2,7 @@
   border-bottom: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
+  position: relative;
 }
 .main-nav {
   align-items: center;
@@ -18,5 +19,19 @@
 }
 &__studia{
     color: black;
+}
+.menu-button{
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  
+}
+.menu-button .icon-cross{
+  display: none;
 }
 }
