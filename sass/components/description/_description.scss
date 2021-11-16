@@ -1,7 +1,7 @@
 .description {
 
 &__title {
-  display: flex;
+  // display: flex;
 }
 &__item:not(:last-child) {
   margin-right: 30px;
@@ -15,6 +15,9 @@
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
+  @media screen and (max-width:480px) {
+    width: 450px;
+  }
 }
 &__pictures {
   width: 70px;
@@ -25,6 +28,9 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--pimary-text-color);
+  @media screen and (max-width:480px) {
+    text-align: center;
+  }
 }
 &__paragraph {
   font-size: 14px;
@@ -33,6 +39,9 @@
   color: var(--secondary-text-color);
   margin-top: 10px;
   width: 270px;
+  @media screen and (max-width:480px) {
+    width: 450px;
+  }
 }
 }
 

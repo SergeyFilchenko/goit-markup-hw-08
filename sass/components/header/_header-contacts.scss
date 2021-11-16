@@ -1,6 +1,6 @@
 .header-contacts{
     margin-left: auto;
-    display: flex;
+    // display: flex;
     
 &__item:not(:last-child){
     margin-right: 50px;
@@ -17,7 +17,7 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-    display: flex;
+    // display: flex;
     align-items: center;
 }
 &__icon {

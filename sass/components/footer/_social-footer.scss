@@ -9,9 +9,16 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+@media screen and (max-width:480px) {
+    text-align: center;
+    margin-top: 60px;
+}
 }
 &_title{
     display: flex;
+    @media screen and (max-width:480px) {
+        justify-content: center;
+    }
 }
 &__item:not(:last-child){
     margin-right: 10px;

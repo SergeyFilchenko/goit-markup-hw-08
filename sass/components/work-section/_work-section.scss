@@ -1,6 +1,9 @@
 .work-section{
     padding-top: 0;
 
+    @media screen and (max-width:1139px) {
+        display: none;
+    }
 &__heading{
     margin-bottom: 50px;
     font-size: 36px;

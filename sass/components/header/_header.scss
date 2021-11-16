@@ -5,7 +5,7 @@
 }
 .main-nav {
   align-items: center;
-  display: flex;
+  // display: flex;
 
 &__web{
   font-family: Raleway;
@@ -14,6 +14,7 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--background-color);
+  
 }
 &__studia{
     color: black;

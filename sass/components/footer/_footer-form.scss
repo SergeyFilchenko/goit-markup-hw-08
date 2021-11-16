@@ -44,6 +44,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
+    @media screen and (max-width:480px) {
+        text-align: center;
+        margin-top: 60px;
+    }
 }
 &__input{
     padding-left: 10px;
@@ -55,6 +59,9 @@
     border-radius: 4px;
     background: #2F303A;
     color: rgba(255, 255, 255, 0.6);
+    @media screen and (max-width:480px) {
+        width: 450px;
+    }
 }
 &__button{
     cursor: pointer;
@@ -72,6 +79,10 @@
     justify-content: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
+    @media screen and (max-width:480px) {
+        margin-top: 20px;
+        margin-left: 111px;
+    }
 }
 &__icon{
   width: 24px;

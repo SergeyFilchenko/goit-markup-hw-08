@@ -4,7 +4,11 @@ padding-top: 94px;
 padding-bottom: 94px;
 
 &__title{
-    display: flex;
+    @media screen and (max-width:480px) {
+        display: flex;
+        
+    }
+    // display: flex;
 }
 &__item:not(:last-child){
     margin-right: 30px;
