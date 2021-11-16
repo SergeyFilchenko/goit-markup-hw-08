@@ -1,9 +1,15 @@
 .header-contacts{
     margin-left: auto;
     // display: flex;
-    
+&__item{
+@media screen and (max-width:480px) {
+        margin-left: 40px;
+        margin-bottom: 32px;
+    }
+}  
 &__item:not(:last-child){
     margin-right: 50px;
+    
 }
 
 &__link:focus, &__link:hover{
@@ -23,5 +29,8 @@
 &__icon {
     margin-right: 10px;
     fill: currentColor;
+    @media screen and (max-width:480px) {
+        display: none;
+    }
 }
 }
