@@ -6,6 +6,20 @@ background: var(--background2-color);
 .footer{
     // display: flex;
     align-items: baseline;
+
+&__web{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+    
+@media screen and (max-width:480px) {
+        display: flex;
+        justify-content: center;
+    }
+}
    
 &__studio{
     color: var(--white-color);

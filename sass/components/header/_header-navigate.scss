@@ -29,6 +29,7 @@
 .current {
     color: #2196F3;
     
+    
 &::after{
     content: '';
     position: absolute;
@@ -38,5 +39,8 @@
     bottom: 0px;
     background: #2196F3;
     border-radius: 2px;
+    @media screen and (max-width:480px) {
+        display: none;
+    }
 }
 }
