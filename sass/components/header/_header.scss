@@ -30,8 +30,10 @@
   position: absolute;
   top: 0;
   right: 10px;
+  z-index: 200;
   @media screen and (min-width:480px) {
     display: none;
+    
   }
   
 & .icon-cross{
@@ -39,6 +41,7 @@
 }
 &.is-open .icon-cross{
   display: block;
+  
 }
 &.is-open .icon-menu{
   display: none;
@@ -53,10 +56,13 @@
   width: 480px;
   height: 796px;
   background-color: white;
-  z-index: 1000;
+  z-index: 100;
+  padding: 48px 40px;
   
 &.is-open{
   display: block;
+  position: absolute;
+  top: 0;
 }
 
 }
