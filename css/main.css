@@ -293,9 +293,16 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 480px) {
+  .backdrop {
+    width: 480px;
+    height: 796px;
+  }
+}
+
 .modal {
   position: absolute;
-  min-width: 528px;
+  width: 528px;
   min-height: 581px;
   left: 50%;
   top: 50%;
@@ -305,6 +312,13 @@
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0), 0px 1px 1px rgba(0, 0, 0, 0), 0px 2px 1px rgba(0, 0, 0, 0);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0), 0px 1px 1px rgba(0, 0, 0, 0), 0px 2px 1px rgba(0, 0, 0, 0);
   border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
 }
 
 .modal__close {
@@ -388,6 +402,13 @@
   outline-color: var(--background-color);
 }
 
+@media screen and (max-width: 480px) {
+  .form-field__input {
+    width: 370px;
+    height: 40px;
+  }
+}
+
 .form-field__input:hover + .form-field__icon {
   fill: var(--background-color);
 }
@@ -411,6 +432,13 @@
   outline-color: var(--background-color);
 }
 
+@media screen and (max-width: 480px) {
+  .form-field__comment {
+    width: 370px;
+    height: 120px;
+  }
+}
+
 .box-licence {
   display: inline-block;
 }
@@ -422,9 +450,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .box-licence__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .box-licence__checkbox {
@@ -450,6 +486,12 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 480px) {
+  .box-licence__custom {
+    position: absolute;
+  }
+}
+
 .box-licence input:checked + .box-licence__custom {
   background-color: var(--background-color);
 }
@@ -460,6 +502,13 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 480px) {
+  .box-licence__text {
+    font-size: 12px;
+    margin-left: 8px;
+  }
 }
 
 .box-licence__agreements {

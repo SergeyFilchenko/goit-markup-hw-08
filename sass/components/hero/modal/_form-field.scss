@@ -26,6 +26,10 @@
     box-sizing: border-box;
     border-radius: 4px;
     outline-color: var(--background-color);
+    @media screen and (max-width:480px) {
+        width: 370px;
+        height: 40px;
+    }
 }
 &__input:hover + &__icon{
     fill: var(--background-color);
@@ -45,6 +49,10 @@
     box-sizing: border-box;
     border-radius: 4px;
     outline-color: var(--background-color);
+    @media screen and (max-width:480px) {
+        width: 370px;
+        height: 120px;
+    }
 }
 }
 
