@@ -999,10 +999,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .portfoio-filter__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.portfoio-filter__item {
+  margin-bottom: 15px;
 }
 
 .portfoio-filter__item:not(:last-child) {
@@ -1030,11 +1038,15 @@
   letter-spacing: 0.03em;
   color: var(--pimary-text-color);
   cursor: pointer;
-  width: 145px;
-  height: 38px;
   background: var(--background3-color);
   border-radius: 4px;
   border-color: transparent;
+}
+
+@media screen and (max-width: 480px) {
+  .portfoio-filter__button {
+    padding: 6px 22px;
+  }
 }
 
 .poster {
@@ -1044,6 +1056,14 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: -15px;
+}
+
+@media screen and (max-width: 480px) {
+  .poster {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .poster__item {
@@ -1185,6 +1205,7 @@ img {
 
 @media screen and (max-width: 480px) {
   .section {
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }

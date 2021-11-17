@@ -18,13 +18,15 @@
         <div class="main-nav container">
             <a href="./index.html" class="main-nav__web">Web<span class="main-nav__studia">Studio</span></a>
             <nav class="main-navigate">
-                <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+                <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container"
+                    data-menu-button>
                     <svg width="40" height="40" aria-label="Переключатель мобильного меню">
                         <use class="icon-cross" href="./images/symbol_1.svg#icon-menu_40px"></use>
                         <use class="icon-menu" href="./images/symbol_1.svg#icon-close_40px"></use>
                     </svg>
                 </button>
-                <div class="menu-container" data-menu>
+    
+                <div class="menu-container" id="menu-container" data-menu>
                     <ul class="main-navigate__title">
                         <li class="main-navigate__item">
                             <a href="./index.html" class="main-navigate__link">Студия</a>
@@ -38,6 +40,14 @@
                     </ul>
                     <ul class="header-contacts">
                         <li class="header-contacts__item">
+                            <a href="tel:+380961111111" class="header-contacts__link">
+                                <svg class="header-contacts__icon" width="10" height="16">
+                                    <use href="./images/sprite.svg#icon-phone"></use>
+                                </svg>
+                                +38 096 111 11 11
+                            </a>
+                        </li>
+                        <li class="header-contacts__item">
                             <a href="mailto:info@devstudio.com" class="header-contacts__link">
                                 <svg class="header-contacts__icon" width="16" height="12">
                                     <use href="./images/sprite.svg#icon-mail"></use>
@@ -45,13 +55,19 @@
                                 info@devstudio.com
                             </a>
                         </li>
-                        <li class="header-contacts__item">
-                            <a href="tel:+380961111111" class="header-contacts__link">
-                                <svg class="header-contacts__icon" width="10" height="16">
-                                    <use href="./images/sprite.svg#icon-phone"></use>
-                                </svg>
-                                +38 096 111 11 11
-                            </a>
+                    </ul>
+                    <ul class="menu-social">
+                        <li>
+                            <a href="" class="menu-social__item">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-social__item">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-social__item">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="" class="menu-social__item">LinkedIn</a>
                         </li>
                     </ul>
                 </div>
@@ -208,7 +224,7 @@
 <footer class="footer-section">
     <div class="footer container">
         <div>
-            <a href="./index.html" class="main-nav__web">Web<span class="footer__studio">Studio</span></a>
+            <a href="./index.html" class="footer__web">Web<span class="footer__studio">Studio</span></a>
             <address class="adress-footer">
                 <p class="adress-footer__title">г. Киев, пр-т Леси Украинки, 26</p>
                 <ul>
