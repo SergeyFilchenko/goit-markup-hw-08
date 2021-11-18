@@ -1,11 +1,24 @@
 .description {
 
+
 &__title {
   // display: flex;
+  @media screen and (min-width:481px) {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
 }
-&__item:not(:last-child) {
-  margin-right: 30px;
+&__item:nth-child(odd){
+  @media screen and (min-width:768px) {
+    margin-right: 30px;
+  }
+  
 }
+// &__item:not(:last-child) {
+//   margin-right: 30px;
+   
+// }
 &__tumb {
   display: flex;
   justify-content: center;
@@ -17,6 +30,9 @@
   margin-bottom: 30px;
   @media screen and (max-width:480px) {
     width: 450px;
+  }
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    width: 354px;
   }
 }
 &__pictures {
@@ -41,6 +57,10 @@
   width: 270px;
   @media screen and (max-width:480px) {
     width: 450px;
+  }
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    width: 354px;
+    height: 75px;
   }
 }
 }
