@@ -18,6 +18,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main-nav__web {
@@ -84,8 +87,21 @@
   top: 0;
 }
 
-.main-navigate {
-  margin-left: 93px;
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .main-navigate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .main-navigate__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .main-navigate__item {
@@ -119,6 +135,13 @@
     font-size: 40px;
     line-height: 47px;
     letter-spacing: 0.02em;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .main-navigate__link {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -178,6 +201,22 @@
 
 .header-contacts {
   margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .header-contacts {
+    margin-left: 82px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -193,6 +232,12 @@
 @media screen and (max-width: 480px) {
   .header-contacts__item:not(:last-child) {
     margin-top: 302px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .header-contacts__item:not(:last-child) {
+    margin-bottom: 10px;
   }
 }
 
@@ -1174,13 +1219,11 @@ img {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .container {
     width: 480px;
   }
@@ -1239,5 +1282,11 @@ img {
 .social-global__list:hover, .social-global__list:focus {
   fill: white;
   background-color: var(--background-color);
+}
+
+@media screen and (max-width: 480px) {
+  .hidden {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
