@@ -68,6 +68,9 @@ img {
     justify-content: center;
     fill: #afb1b8;
     background: rgba(255, 255, 255, 0.1);
+    @media screen and (min-width:768px) {
+      margin-right: 10px;
+    }
   }
 
   &__logo {
@@ -84,4 +87,10 @@ img {
   @media screen and (max-width:480px) {
     display: none;
   }
+}
+.mr{
+  margin-right: 30px;
+}
+.mb{
+margin-bottom: 30px;
 }

@@ -30,6 +30,9 @@
         width: 370px;
         height: 40px;
     }
+   @media screen and (min-width:768px) {
+       width: 370px;
+   } 
 }
 &__input:hover + &__icon{
     fill: var(--background-color);
@@ -52,6 +55,9 @@
     @media screen and (max-width:480px) {
         width: 370px;
         height: 120px;
+    }
+    @media screen and(min-width:768px) {
+        width: 370px;
     }
 }
 }

@@ -13,7 +13,11 @@ padding-bottom: 94px;
         flex-wrap: wrap;
         justify-content: center;
     }
-    // display: flex;
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
 &__item:not(:last-child){
     // margin-right: 30px;
@@ -23,9 +27,9 @@ padding-bottom: 94px;
         &:nth-child(2n+1){
             margin-right: 30px;
         }
-    }
-    
+    }    
 }
+
 &__link:hover, &__link:focus{
     fill: var(--background-color);
     border-color: var(--background-color);
@@ -41,6 +45,10 @@ padding-bottom: 94px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+    @media screen and (min-width:768px) {
+        width: 226px;
+        height: 92px;
+    }
 }
 &__logo{
     color: currentColor;

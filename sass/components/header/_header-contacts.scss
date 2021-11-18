@@ -1,8 +1,9 @@
 .header-contacts{
     margin-left: auto;
-    display: flex;
+    // display: flex;
     @media screen and (min-width:481px) and (max-width:768px) {
     margin-left: 82px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
