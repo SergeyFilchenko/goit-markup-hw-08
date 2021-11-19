@@ -1,11 +1,14 @@
 .header-contacts{
     margin-left: auto;
-    // display: flex;
     @media screen and (min-width:481px) and (max-width:768px) {
     margin-left: 82px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+@media screen and (min-width:1200px) {
+    display: flex;
+   align-items: center;
 }
 &__item{
 @media screen and (max-width:480px) {
@@ -41,8 +44,10 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-    // display: flex;
     align-items: center;
+    @media screen and (min-width:1200px) {
+        display: flex;
+    }
 }
 &__icon {
     margin-right: 10px;

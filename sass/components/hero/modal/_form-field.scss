@@ -30,7 +30,7 @@
         width: 370px;
         height: 40px;
     }
-   @media screen and (min-width:768px) {
+   @media screen and (min-width:768px) and (max-width:1199px) {
        width: 370px;
    } 
 }
@@ -56,7 +56,7 @@
         width: 370px;
         height: 120px;
     }
-    @media screen and(min-width:768px) {
+    @media screen and(min-width:768px) and (max-width:1199px) {
         width: 370px;
     }
 }

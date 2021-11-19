@@ -29,7 +29,7 @@ background-size: 13px 12px;
 cursor: pointer;
 border-radius: 4px;
 background-repeat: no-repeat;
-@media screen and (min-width:480px) {
+@media screen and (min-width:480px) and (max-width:1199px) {
     position: absolute;
 }
 }
@@ -43,7 +43,7 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
-@media screen and (min-width:480px) {
+@media screen and (min-width:480px) and (max-width:1199px) {
     font-size: 12px;
     margin-left: 8px;
 }
