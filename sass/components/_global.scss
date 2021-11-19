@@ -89,8 +89,14 @@ img {
   }
 }
 .mr{
-  margin-right: 30px;
+  @media screen and (max-width:768px) {
+    margin-right: 30px;
+  }
+  
 }
 .mb{
+  @media screen and (max-width:768px){
 margin-bottom: 30px;
+  }
+
 }
