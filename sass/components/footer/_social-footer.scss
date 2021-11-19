@@ -1,9 +1,13 @@
 .social-footer{
     // margin-left: 70px;
     // margin-right: 93px;
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:768px) and (max-width:1199px) {
     margin-left: 165px;
     text-align: center;
+}
+@media screen and (min-width:1200px) {
+    margin-left: 70px;
+    margin-right: 93px;
 }
 &_heading{
     font-weight: bold;

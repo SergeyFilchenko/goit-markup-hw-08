@@ -6,13 +6,20 @@ background: var(--background2-color);
 .footer{
     // display: flex;
     align-items: baseline;
-    @media screen and (min-width:768px) {
+    @media screen and (max-width:768px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    }
+}
+@media screen and (min-width:1200px) {
+    display: flex;
+    align-items: baseline;
+}
 &__logo{
-    text-align: center;
+    @media screen and (max-width:768px) {
+        text-align: center;
+    }
+   
 }
 &__web{
     font-family: Raleway;
