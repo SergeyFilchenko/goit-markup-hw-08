@@ -14,6 +14,9 @@
     }
    
 }  
+&__item:first-child .poster-description{
+    padding-bottom: 56px;
+}
 &__item:not(:last-child){
     margin-bottom: 30px;
 }
@@ -48,7 +51,7 @@ box-sizing: border-box;
     overflow: hidden;
 }
 }
-  
+ 
 .poster-description{
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
