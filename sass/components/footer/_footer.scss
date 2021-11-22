@@ -29,7 +29,7 @@ background: var(--background2-color);
     letter-spacing: 0.03em;
     color: var(--background-color);
     
-@media screen and (max-width:480px) {
+@media screen and (max-width:767px) {
         display: flex;
         justify-content: center;
     }
