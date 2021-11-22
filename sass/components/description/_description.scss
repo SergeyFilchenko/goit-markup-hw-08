@@ -31,7 +31,7 @@
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:767px) {
     width: 450px;
   }
   @media screen and (min-width:768px) and (max-width:1199px) {
@@ -47,7 +47,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--pimary-text-color);
-  @media screen and (max-width:480px) {
+  
+  @media screen and (max-width:767px) {
     text-align: center;
   }
 }
@@ -58,7 +59,7 @@
   color: var(--secondary-text-color);
   margin-top: 10px;
   width: 270px;
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:767px) {
     width: 450px;
   }
   @media screen and (min-width:768px) and (max-width:1199px) {

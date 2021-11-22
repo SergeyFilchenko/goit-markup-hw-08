@@ -8,7 +8,7 @@ padding-bottom: 94px;
 }
 
 &__title{
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:767px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -29,7 +29,7 @@ padding-bottom: 94px;
 &__item:not(:last-child){
     // margin-right: 30px;
     
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:767px) {
         margin-bottom: 30px;
         &:nth-child(2n+1){
             margin-right: 30px;

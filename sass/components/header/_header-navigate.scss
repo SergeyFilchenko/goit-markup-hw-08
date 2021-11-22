@@ -1,6 +1,6 @@
 .main-navigate{
     
-    @media screen and (min-width:481px) and (max-width:768px) {
+    @media screen and (max-width:1199px) {
         display: flex;
         margin-left: auto;
     }
@@ -10,7 +10,7 @@
     }
 
 &__title{
-    @media screen and (min-width:481px) and (max-width:768px) {
+    @media screen and (min-width:768px) and (max-width:1199px) {
         display: flex;
     }
     @media screen and (min-width:1200px) {
@@ -39,7 +39,7 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--pimary-text-color);
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:767px) {
         font-weight: 500;
         font-size: 40px;
         line-height: 47px;
@@ -72,7 +72,7 @@
     bottom: 0px;
     background: #2196F3;
     border-radius: 2px;
-    @media screen and (max-width:480px) {
+    @media screen and (max-width:767px) {
         display: none;
     }
 }

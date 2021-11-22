@@ -50,7 +50,7 @@
   z-index: 200;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 767px) {
   .menu-button {
     display: none;
   }
@@ -91,7 +91,7 @@
   top: 0;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .main-navigate {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .main-navigate__title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -150,7 +150,7 @@
   color: var(--pimary-text-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .main-navigate__link {
     font-weight: 500;
     font-size: 40px;
@@ -192,7 +192,7 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .current::after {
     display: none;
   }
@@ -268,7 +268,7 @@
   margin-right: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header-contacts__item:not(:last-child) {
     margin-top: 302px;
   }
@@ -341,7 +341,7 @@
   background-size: cover;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.jpg);
@@ -350,14 +350,14 @@
   }
 }
 
-@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero2x.jpg);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero-tablet.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet.jpg);
@@ -365,7 +365,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/hero-tablet2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet2x.jpg);
@@ -435,9 +435,9 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .backdrop {
-    width: 480px;
+    min-width: 480px;
     height: 796px;
   }
 }
@@ -469,7 +469,7 @@
   border-radius: 4px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .modal {
     width: 450px;
     height: 609px;
@@ -564,7 +564,7 @@
   outline-color: var(--background-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .form-field__input {
     width: 370px;
     height: 40px;
@@ -600,7 +600,7 @@
   outline-color: var(--background-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .form-field__comment {
     width: 370px;
     height: 120px;
@@ -755,7 +755,7 @@
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .description__tumb {
     width: 450px;
   }
@@ -779,7 +779,7 @@
   color: var(--pimary-text-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .description__heading {
     text-align: center;
   }
@@ -794,7 +794,7 @@
   width: 270px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .description__paragraph {
     width: 450px;
   }
@@ -948,7 +948,7 @@
           justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .social-box {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -976,7 +976,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .client-section__title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1006,7 +1006,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .client-section__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1635,7 +1635,7 @@ img {
   background-color: var(--background-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .hidden {
     display: none;
   }
