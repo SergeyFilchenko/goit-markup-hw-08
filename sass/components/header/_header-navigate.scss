@@ -39,16 +39,20 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--pimary-text-color);
+    @media screen and (min-width:481px) {
+        // padding-top: 32px;
+        padding-bottom: 32px;
+    }
     @media screen and (max-width:767px) {
         font-weight: 500;
         font-size: 40px;
         line-height: 47px;
         letter-spacing: 0.02em;  
     }
-    @media screen and (min-width:481px) {
+    @media screen and (min-width:768px) {
         padding-top: 32px;
-        padding-bottom: 32px;
     }
+    
     @media screen and (min-width:1200px) {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -79,7 +83,7 @@
 }
 .menu-social{
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     margin-top: 64px;
 .menu-social__item{
     

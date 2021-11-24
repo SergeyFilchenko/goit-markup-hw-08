@@ -8,6 +8,11 @@
     width: 370px;
     height: 294px;
     background: rgba(33, 150, 243, 0.9);
+    
+    @media screen and (min-width:480px) and (max-width:767px) {
+        width: 450px;
+        height: 294px;
+    }
 
 &__text{
     font-size: 18px;

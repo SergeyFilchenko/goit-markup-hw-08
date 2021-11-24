@@ -16,7 +16,7 @@ background: var(--background2-color);
     align-items: baseline;
 }
 &__logo{
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:1199px) {
         text-align: center;
     }
    
@@ -43,6 +43,10 @@ background: var(--background2-color);
 
 .adress-footer{
     margin-top: 20px;
+    @media screen and (max-width:1199px) {
+       text-align: center; 
+    }
+    
     
 &__title{
     
