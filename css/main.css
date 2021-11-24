@@ -399,6 +399,12 @@
   color: var(--white-color);
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero__text {
+    font-size: 26px;
+  }
+}
+
 .hero__button {
   margin-top: 30px;
   cursor: pointer;
@@ -1572,7 +1578,7 @@ img {
 
 @media screen and (min-width: 320px) {
   .container {
-    min-width: 320px;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
