@@ -61,14 +61,14 @@
   left: 0;
   width: 100%;
   // width: 480px;
-  height: 796px;
+  height: 595px;
   background-color: white;
   z-index: 100;
   padding: 48px 40px;
   
 &.is-open{
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
