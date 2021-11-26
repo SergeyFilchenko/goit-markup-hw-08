@@ -8,6 +8,9 @@
 .main-nav {
   align-items: center;
   display: flex;
+  @media screen and (min-width:320px) and (max-width:767px) {
+    position: relative;
+  }
 
 &__web{
   font-family: Raleway;
