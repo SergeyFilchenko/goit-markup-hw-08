@@ -36,7 +36,7 @@
   top: 0;
   right: 10px;
   z-index: 200;
-  @media screen and (min-width:767px) {
+  @media screen and (min-width:768px) {
     display: none;
     
   }
@@ -45,13 +45,16 @@
 }
 & .icon-cross{
   display: none;
+  
 }
 &.is-open .icon-cross{
   display: block;
   
+    
 }
 &.is-open .icon-menu{
   display: none;
+ 
 }
 }
 .menu-container{
@@ -65,16 +68,22 @@
   background-color: white;
   z-index: 100;
   padding: 48px 40px;
+  @media screen and (min-width:768px) {
+    display: none;
+  }
   
-.menu-container::-webkit-scrollbar { width: 0 !important }
+
 &.is-open{
   display: block;
   position: fixed;
   top: 0;
   width: 100vw;
   height: 100vh;
-  
+  @media screen and (min-width:768px) {
+    display: none;
+  }
 }
 
 }
+
 

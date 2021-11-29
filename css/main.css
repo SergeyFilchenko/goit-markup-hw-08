@@ -56,7 +56,7 @@
   z-index: 200;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .menu-button {
     display: none;
   }
@@ -90,8 +90,10 @@
   padding: 48px 40px;
 }
 
-.menu-container .menu-container::-webkit-scrollbar {
-  width: 0 !important;
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
 }
 
 .menu-container.is-open {
@@ -100,6 +102,12 @@
   top: 0;
   width: 100vw;
   height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container.is-open {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1199px) {
